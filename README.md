@@ -1,6 +1,6 @@
 这是我的第一个项目，目前正在完善中，主要有单人模式和多人联机模式，多人联机模式基于C#和.net的套接字编程
 
-模型资源来自Unity免费商店，此项目会长期更新
+模型资源来自Unity免费商店，这个游戏小项目会长期更新:smile:
 
 目前的缺陷有：<br>
     1.必须使用WLAN网卡进入多人联机模式，否则会报StringNullException异常<br>
@@ -14,6 +14,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;增加血条系统，以及血条增减动态动画<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;增加敌人，以及敌人AI行为树<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不使用WLAN网卡进入多人联机不会再报错，但是不会搜索到房间<br>
-![enemy](https://github.com/user-attachments/assets/1b51ccb6-939f-4599-ae9f-fc0bb2da6615)
+![enemy](https://github.com/user-attachments/assets/99f54f88-ddb6-4061-b7bb-59f5ed96b002)
+
 
   
