@@ -16,5 +16,7 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不使用WLAN网卡进入多人联机不会再报错，但是不会搜索到房间<br>
 ![enemy](https://github.com/user-attachments/assets/99f54f88-ddb6-4061-b7bb-59f5ed96b002)
 
+  [2025/1/2]<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;拓展行为树，在已经有日常巡逻状态的行为树上，增加基于A*的追踪玩家状态
 
   
