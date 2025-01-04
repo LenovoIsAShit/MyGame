@@ -23,7 +23,7 @@
 
   
   [2025/1/2]<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;增加基于工厂模式和多态设计的子弹类型
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;增加基于工厂模式和多态设计的子弹类型<br>
   ![57BD1EFF92EA95EDC5FFC4FD8E30F8CE](https://github.com/user-attachments/assets/65b4ceba-2e19-47da-bce3-7db73a8c0618)
 
   
