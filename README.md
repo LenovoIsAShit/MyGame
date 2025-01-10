@@ -1,4 +1,4 @@
-这是我的第一个项目，目前正在完善中，主要有单人模式和多人联机模式，多人联机模式基于C#和.net的套接字编程
+这是我的第一个项目，目前正在维护更新中，主要有单人模式和多人联机模式，多人联机模式基于C#和.net的套接字编程
 模型资源来自Unity免费商店，这个游戏小项目会长期更新:smile:
     
 <br>//////////////////////////////////////////////////////   日志   ///////////////////////////////////////////////////////<br><br>
@@ -19,5 +19,12 @@
   [2025/1/4]<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;增加基于工厂模式和多态设计的子弹类型<br>
   ![57BD1EFF92EA95EDC5FFC4FD8E30F8CE](https://github.com/user-attachments/assets/65b4ceba-2e19-47da-bce3-7db73a8c0618)
+
+  [2025/1/10]<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;增加子弹爆炸效果和脚底方向指针，现在点击鼠标左键向该方向发射子弹<br>
+  ![f44561df-a7fd-4fee-bc1c-0c87b5b66240](https://github.com/user-attachments/assets/8dcba040-f805-498f-918f-5d031e61891b)![7500fb10-583d-49ab-aeac-950b7ff9d705](https://github.com/user-attachments/assets/1727ba93-ee21-44ce-83ed-b4f074e6efeb)<br>
+  因为效率原因，此后更新日志只上传大更新。。。我会加油的(苦笑)
+
+
 
   
