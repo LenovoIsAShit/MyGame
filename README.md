@@ -31,5 +31,6 @@
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增背包系统，包括"物品栏"，“子弹库”，展示当前使用主子弹框和其他三个道具框<br>
   ![d469eeb4-6f15-4c94-a202-195fa07fcb11](https://github.com/user-attachments/assets/88709c50-9a17-4ca1-b475-86cd2778d64c)
 
-
+  [2025/1/27]<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增关卡流程控制和关卡过度动画(杀光当前所有怪物触发)<br>
   
