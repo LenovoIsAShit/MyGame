@@ -22,14 +22,15 @@
 
   [2025/1/10]<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;增加子弹爆炸效果和脚底方向指针，现在点击鼠标左键向该方向发射子弹<br>
-  ![f44561df-a7fd-4fee-bc1c-0c87b5b66240](https://github.com/user-attachments/assets/8dcba040-f805-498f-918f-5d031e61891b)![7500fb10-583d-49ab-aeac-950b7ff9d705](https://github.com/user-attachments/assets/1727ba93-ee21-44ce-83ed-b4f074e6efeb)<br>
-  因为效率原因，此后更新日志只上传大更新。。。我会加油的(苦笑)<br>
+  ![401903288-8dcba040-f805-498f-918f-5d031e61891b](https://github.com/user-attachments/assets/d31016e9-efdc-490c-8fc3-48c4217c0a43)
+  ![401903297-1727ba93-ee21-44ce-83ed-b4f074e6efeb](https://github.com/user-attachments/assets/7e536cd1-3238-4701-a3e2-c8bd84e22462)<br>
 
   [2025/1/27]<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增UImanager基于单例模式管理所有UI界面<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增对象池管理，回收包括子弹等对象内存<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增背包系统，包括"物品栏"，“子弹库”，展示当前使用主子弹框和其他三个道具框<br>
-  ![d469eeb4-6f15-4c94-a202-195fa07fcb11](https://github.com/user-attachments/assets/88709c50-9a17-4ca1-b475-86cd2778d64c)
+  ![406748397-88709c50-9a17-4ca1-b475-86cd2778d64c](https://github.com/user-attachments/assets/060ab5e3-9a57-4b34-8c88-7e6458b37a5c)
+
 
   [2025/1/27]<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增关卡流程控制和关卡过度动画(杀光当前所有怪物触发)<br>
