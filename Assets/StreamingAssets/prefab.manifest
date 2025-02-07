@@ -1,0 +1,168 @@
+ManifestFileVersion: 0
+CRC: 3889530029
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: f4ac9cdfb01cb70b048feccc43b46738
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: b3733d63d157c0999ee2823e66e3e8ca
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: f4ac9cdfb01cb70b048feccc43b46738
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 23
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 33
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 54
+  Script: {instanceID: 0}
+- Class: 65
+  Script: {instanceID: 0}
+- Class: 74
+  Script: {instanceID: 0}
+- Class: 91
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 108
+  Script: {instanceID: 0}
+- Class: 114
+  Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f94f9a4effc0628418fb8e6eea15a3db, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: fb177d17216d87d43bf87c33d5e7d312, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8bdbc79f7f50604418ab09976dbfbf05, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e9065701c3e2a2a42b64b78b54b508d1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 5571ffece10b26f49b0f21a5d75f1d5f, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 71c1514a6bd24e1e882cebbe1904ce04, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e4fc5eda5ea2d4e45aa947330bc2e640, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: e555c3a7b7ebdd54c9646fe492973470, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 8d7b55c7ecdb49a4a89fa5e6f9022861, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 770bf7fb7edb41e4ea57fed7139d27f5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b23f08d2ae4cba14087c1ed36193d82b, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: eab99e74d994ccb498d7f4ae2c3d8b65, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 09b71ed84c7cb9141a2a8138bca36cec, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 28ef6047b67af564dbceda41f1451a56, type: 3}
+- Class: 115
+  Script: {instanceID: 0}
+- Class: 128
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+- Class: 198
+  Script: {instanceID: 0}
+- Class: 199
+  Script: {instanceID: 0}
+- Class: 213
+  Script: {instanceID: 0}
+- Class: 222
+  Script: {instanceID: 0}
+- Class: 223
+  Script: {instanceID: 0}
+- Class: 224
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers:
+- AssemblyName: BehaviorDesigner.Runtime
+  ClassName: BehaviorDesigner.Runtime.BehaviorSource
+- AssemblyName: BehaviorDesigner.Runtime
+  ClassName: BehaviorDesigner.Runtime.FieldSerializationData
+- AssemblyName: BehaviorDesigner.Runtime
+  ClassName: BehaviorDesigner.Runtime.TaskSerializationData
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FaceInfo_Legacy
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.FontAssetCreationSettings
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.KerningTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_Character
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontFeatureTable
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_FontWeightPair
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphPairAdjustmentRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.TMP_GlyphValueRecord
+- AssemblyName: Unity.TextMeshPro
+  ClassName: TMPro.VertexGradient
+- AssemblyName: UnityEngine.CoreModule
+  ClassName: UnityEngine.Events.PersistentCallGroup
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.FaceInfo
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.Glyph
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphMetrics
+- AssemblyName: UnityEngine.TextCoreFontEngineModule
+  ClassName: UnityEngine.TextCore.GlyphRect
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.AnimationTriggers
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Button/ButtonClickedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.ColorBlock
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.MaskableGraphic/CullStateChangedEvent
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.Navigation
+- AssemblyName: UnityEngine.UI
+  ClassName: UnityEngine.UI.SpriteState
+Assets:
+- Assets/Resources/prefabs/All/gameri.prefab
+- Assets/Resources/prefabs/All/Gamecontroller.prefab
+- Assets/Resources/prefabs/All/Client.prefab
+- Assets/Resources/prefabs/All/room.prefab
+- Assets/Resources/prefabs/All/Server.prefab
+- Assets/Resources/prefabs/All/ClientController.prefab
+- Assets/Resources/prefabs/All/Blood_System.prefab
+- Assets/Resources/prefabs/All/Display_pos.prefab
+- Assets/Resources/prefabs/All/star_bomb.prefab
+- Assets/Resources/prefabs/All/boom.prefab
+- Assets/Resources/prefabs/All/Enemy_bahavior.asset
+- Assets/Resources/prefabs/All/wuqi_gezi.prefab
+- Assets/Resources/prefabs/All/Monster.prefab
+- Assets/Resources/prefabs/All/daoju_gezi.prefab
+Dependencies:
+- D:/unity/proj/BurningLove/AssetBundles/PC/font
+- D:/unity/proj/BurningLove/AssetBundles/PC/image
+- D:/unity/proj/BurningLove/AssetBundles/PC/material

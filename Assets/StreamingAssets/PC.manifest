@@ -1,0 +1,23 @@
+ManifestFileVersion: 0
+CRC: 1076584691
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: font
+      Dependencies: {}
+    Info_1:
+      Name: prefab
+      Dependencies:
+        Dependency_0: font
+        Dependency_1: image
+        Dependency_2: material
+    Info_2:
+      Name: image
+      Dependencies: {}
+    Info_3:
+      Name: material
+      Dependencies:
+        Dependency_0: image
+    Info_4:
+      Name: model
+      Dependencies: {}
