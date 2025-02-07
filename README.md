@@ -34,4 +34,7 @@
 
   [2025/1/27]<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增关卡流程控制和关卡过度动画(杀光当前所有怪物触发)<br>
-  
+
+  [2025/2/7]<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增怪物生成过度动画<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更改AssetBundle资源管理方式，增加ABmanager脚本管理图片，模型，预制件等资源<br>
