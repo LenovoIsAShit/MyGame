@@ -38,3 +38,10 @@
   [2025/2/7]<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新增怪物生成过度动画<br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;更改AssetBundle资源管理方式，增加ABmanager脚本管理图片，模型，预制件等资源<br>
+
+  [2025/2/9]<br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;加入了一个超级酷的BOSS战<br>
+  ![4844E3849E68D1D793D978A7DAA249C0](https://github.com/user-attachments/assets/03a658c2-6e4f-4803-9377-1ae2446ce22c)
+
+
+
