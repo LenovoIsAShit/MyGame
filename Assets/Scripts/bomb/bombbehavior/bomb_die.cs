@@ -25,6 +25,6 @@ public class bomb_die : MonoBehaviour
 
     void OnParticleSystemStopped()
     {
-        Destroy(this.gameObject);
+        OP.instance.Del(this.gameObject);
     }
 }

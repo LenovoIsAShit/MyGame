@@ -17,7 +17,7 @@ public class move_to_palyer : Action
     public SharedInt path_now;
     //第几个位置点
 
-    float speed = 0, accelaration = 3f;
+    float speed = 0, accelaration = 5f;
     //怪物速度，加速度
 
     public override TaskStatus OnUpdate()

@@ -26,6 +26,10 @@ public class BeibaoManager : MonoBehaviour
         get { return wuqi_cangku; }
     }
 
+    /// <summary>
+    /// Ìí¼ÓÎäÆ÷
+    /// </summary>
+    /// <param name="bomb_name"></param>
     void Add_wuqi_cangku(string bomb_name)
     {
         bomb b = null;
@@ -40,6 +44,11 @@ public class BeibaoManager : MonoBehaviour
         wuqi_cangku.Add(b);
     }
 
+
+    /// <summary>
+    /// ÉèÖÃÖ÷ÎäÆ÷
+    /// </summary>
+    /// <param name="now"></param>
     void Set_main_wuqi(bomb now)
     {
         wuqi = now;

@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 1421905077
+CRC: 584979348
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2fb10f56f82c15120dc09761d73704c3
+    Hash: 9863e47f2f33c7fccb1ff171f22907e4
   TypeTreeHash:
     serializedVersion: 2
     Hash: 60ca88300e6ad77e6b1dcafca6bc3586
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 2fb10f56f82c15120dc09761d73704c3
+    Hash: 9863e47f2f33c7fccb1ff171f22907e4
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -34,5 +34,5 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Resources/prefabs/All/Anime_Girl.prefab
+- Assets/Source/prefabs/All/gameri.prefab
 Dependencies: []

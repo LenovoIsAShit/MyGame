@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3461604792
+CRC: 3693314859
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 0dddab3272c32ce16b080d817fe70f6e
+    Hash: d4631ee46ca4263cc89b38554aa849a7
   TypeTreeHash:
     serializedVersion: 2
     Hash: b30fce1a9ad74efb72be6c308c56e365
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 0dddab3272c32ce16b080d817fe70f6e
+    Hash: d4631ee46ca4263cc89b38554aa849a7
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -20,13 +20,13 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/Materils/cube.mat
-- Assets/Materils/bomb_gas.mat
-- Assets/Materils/New Material.mat
-- Assets/Materils/New Material 1.mat
-- Assets/Materils/effect.mat
-- Assets/Materils/button.mat
-- Assets/Materils/ground.mat
-- Assets/Materils/blood1.mat
+- Assets/Source/Materils/cube.mat
+- Assets/Source/Materils/bomb_gas.mat
+- Assets/Source/Materils/New Material.mat
+- Assets/Source/Materils/New Material 1.mat
+- Assets/Source/Materils/effect.mat
+- Assets/Source/Materils/button.mat
+- Assets/Source/Materils/ground.mat
+- Assets/Source/Materils/blood1.mat
 Dependencies:
 - D:/unity/proj/BurningLove/AssetBundles/PC/image

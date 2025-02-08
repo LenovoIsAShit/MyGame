@@ -11,16 +11,20 @@ public class Local_camera : MonoBehaviour
 {
     GameObject player;
     //玩家
-    Vector3 aimpos,disvec;
+    public Vector3 aimpos,disvec;
     //相机移动目标点，玩家指向相机的向量
     float tan, height, trigle;
     //夹角高度
     public static GameObject cme;
     //相机(单列)
+    public static Local_camera cm;
+    //单例
+
 
     private void Awake()
     {
         cme = this.gameObject;
+        cm = GetComponent<Local_camera>();
     }
 
     void Start()

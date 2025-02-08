@@ -29,7 +29,10 @@ public class model : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Update_Model_State();
+        if (!LevelController.Inboss)
+        {
+            Update_Model_State();
+        }
     }
 
     void LateUpdate()

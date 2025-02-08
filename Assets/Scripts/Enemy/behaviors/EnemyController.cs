@@ -35,7 +35,7 @@ public class EnemyController : MonoBehaviour
 
     void LateUpdate()
     {
-
+        
     }
 
     public void Start_make_enemy()
@@ -88,11 +88,15 @@ public class EnemyController : MonoBehaviour
             yield return new WaitForSeconds(time);
             
             obj.SetActive(true);
+            obj.GetComponent<BehaviorTree>().enabled = false;
 
             obj.transform
                 .DOMoveY(50, 0.3f)
                 .From(true)
-                .SetAutoKill(true);
+                .SetAutoKill(true).OnComplete(()=>{
+                    obj.GetComponent<BehaviorTree>().enabled = true;
+                }
+            );
 
             enemies.Add(obj);
             

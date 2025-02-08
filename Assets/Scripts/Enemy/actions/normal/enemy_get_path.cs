@@ -23,7 +23,9 @@ public class enemy_get_path : Action
     {
         for(int i = 0; i < path.Value.Count; i++)
         {
-            Object.Destroy(path.Value[i]);
+            GameObject t = path.Value[i];
+            path.Value[i] = null;
+            Object.Destroy(t);
         }
         
         path.Value.Clear();

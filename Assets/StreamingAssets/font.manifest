@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 2964120272
+CRC: 2510269551
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 2711be32e8b6a070d1cd1e418d67248c
+    Hash: 382f96bda406c5a1ab66dc9ed5895e88
   TypeTreeHash:
     serializedVersion: 2
     Hash: 883544743a38c9822709974f4036d31b
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 2711be32e8b6a070d1cd1e418d67248c
+    Hash: 382f96bda406c5a1ab66dc9ed5895e88
 HashAppended: 0
 ClassTypes:
 - Class: 21
@@ -52,6 +52,6 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.TextCoreFontEngineModule
   ClassName: UnityEngine.TextCore.GlyphRect
 Assets:
-- Assets/Resources/fonts/MSYH SDF.asset
-- Assets/Resources/fonts/MSYH.TTC
+- Assets/Source/fonts/MSYH SDF.asset
+- Assets/Source/fonts/MSYH.TTC
 Dependencies: []

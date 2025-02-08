@@ -59,12 +59,20 @@ public class Blood_system : MonoBehaviour
 
     public void Change_hp(float dx)
     {
-        if (dx + hp > 0 && dx + hp <= max_hp)
+        if (dx + hp > 0)
         {
-            hp += dx;
-            StartCoroutine("Cg", dx);
+            if (dx + hp >= max_hp) {
+                float t = 100-hp;
+                hp = 100;
+                StartCoroutine("Cg", t);
+            }
+            else
+            {
+                hp += dx;
+                StartCoroutine("Cg", dx);
+            }
         }
-        else if (dx + hp <= 0)
+        else 
         {
             hp = 0;
             StartCoroutine("Cg", -hp); 
@@ -121,19 +129,20 @@ public class Blood_system : MonoBehaviour
 
     void Die()
     {
-        if (hp == 0&&gameObject.tag=="Monster")
+        if (hp == 0)
         {
-
-            gameObject.SetActive(false);
-
-            EnemyController.enemy_Controller.Decrease_nownum();
-
-            LevelController.levelcontrol.Check_level();
-
-            OP.instance.Del(this.gameObject);
-            //Destroy(this.gameObject);
+            switch (gameObject.tag)
+            {
+                case "Monster":
+                    Monster_die();
+                    break;
+                case "SinglePlayer":
+                    SinglePlayer_die();
+                    break;
+            }
         }
-    }//玩家似后，游戏对象关闭，摄像机停在玩家固定视角位置
+    }
+    //死亡判断
 
     public float Get_hp()
     {
@@ -155,4 +164,45 @@ public class Blood_system : MonoBehaviour
         slow.offsetMin = new Vector2(0f, 0f);
     }
 
+    void FallingOffCheck()
+    {
+        HealCube();
+    }
+    //掉落物品轮询
+
+    void HealCube()
+    {
+        System.Random r = new System.Random();
+        if (r.NextDouble() >= 0.6f)
+        {
+            GameObject hc = OP.Instance.Get("HealCube");
+            hc.transform.position = new Vector3(this.gameObject.transform.position.x, 208.7f, this.gameObject.transform.position.z);
+        }
+
+    }
+    //治疗物品
+
+
+    void Monster_die()
+    {
+        gameObject.SetActive(false);
+
+        FallingOffCheck();
+        //生成掉落轮询
+
+        EnemyController.enemy_Controller.Decrease_nownum();
+
+        LevelController.levelcontrol.Check_level();
+
+        OP.instance.Del(this.gameObject);
+    }
+    //怪物死亡
+
+
+    void SinglePlayer_die()
+    {
+        LevelController.Inboss = true;
+        Player_die.quitUI.Show();
+    }
+    //玩家死亡
 }

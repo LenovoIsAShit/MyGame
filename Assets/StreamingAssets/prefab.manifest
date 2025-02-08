@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3889530029
+CRC: 3961940720
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: f4ac9cdfb01cb70b048feccc43b46738
+    Hash: 0f522cd5da1385fb9ebb1380472a1e8e
   TypeTreeHash:
     serializedVersion: 2
-    Hash: b3733d63d157c0999ee2823e66e3e8ca
+    Hash: 805b3828bcaff39a91eea04fd911de79
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: f4ac9cdfb01cb70b048feccc43b46738
+    Hash: 0f522cd5da1385fb9ebb1380472a1e8e
 HashAppended: 0
 ClassTypes:
 - Class: 1
@@ -41,6 +41,8 @@ ClassTypes:
 - Class: 108
   Script: {instanceID: 0}
 - Class: 114
+  Script: {fileID: 11500000, guid: 072778045cf36e04a90698f05d237361, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
@@ -57,7 +59,13 @@ ClassTypes:
 - Class: 114
   Script: {fileID: 11500000, guid: e9065701c3e2a2a42b64b78b54b508d1, type: 3}
 - Class: 114
+  Script: {fileID: 11500000, guid: 0451428fce1a92149b07d80fd7d5ba6e, type: 3}
+- Class: 114
   Script: {fileID: 11500000, guid: 31a19414c41e5ae4aae2af33fee712f6, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: 2e55dda1d9ef79241a1f7bb90a8a89a1, type: 3}
+- Class: 114
+  Script: {fileID: 11500000, guid: b94e82826538ac540b7836a9ef53051b, type: 3}
 - Class: 114
   Script: {fileID: 11500000, guid: 5571ffece10b26f49b0f21a5d75f1d5f, type: 3}
 - Class: 114
@@ -83,6 +91,8 @@ ClassTypes:
 - Class: 115
   Script: {instanceID: 0}
 - Class: 128
+  Script: {instanceID: 0}
+- Class: 135
   Script: {instanceID: 0}
 - Class: 137
   Script: {instanceID: 0}
@@ -148,20 +158,26 @@ SerializeReferenceClassIdentifiers:
 - AssemblyName: UnityEngine.UI
   ClassName: UnityEngine.UI.SpriteState
 Assets:
-- Assets/Resources/prefabs/All/gameri.prefab
-- Assets/Resources/prefabs/All/Gamecontroller.prefab
-- Assets/Resources/prefabs/All/Client.prefab
-- Assets/Resources/prefabs/All/room.prefab
-- Assets/Resources/prefabs/All/Server.prefab
-- Assets/Resources/prefabs/All/ClientController.prefab
-- Assets/Resources/prefabs/All/Blood_System.prefab
-- Assets/Resources/prefabs/All/Display_pos.prefab
-- Assets/Resources/prefabs/All/star_bomb.prefab
-- Assets/Resources/prefabs/All/boom.prefab
-- Assets/Resources/prefabs/All/Enemy_bahavior.asset
-- Assets/Resources/prefabs/All/wuqi_gezi.prefab
-- Assets/Resources/prefabs/All/Monster.prefab
-- Assets/Resources/prefabs/All/daoju_gezi.prefab
+- Assets/Source/prefabs/All/Boss1.prefab
+- Assets/Source/prefabs/All/Gamecontroller.prefab
+- Assets/Source/prefabs/All/ray.prefab
+- Assets/Source/prefabs/All/Client.prefab
+- Assets/Source/prefabs/All/warning.prefab
+- Assets/Source/prefabs/All/room.prefab
+- Assets/Source/prefabs/All/Server.prefab
+- Assets/Source/prefabs/All/Boss_blood_system.prefab
+- Assets/Source/prefabs/All/HealCube.prefab
+- Assets/Source/prefabs/All/ClientController.prefab
+- Assets/Source/prefabs/All/Anime_Girl.prefab
+- Assets/Source/prefabs/All/Blood_System.prefab
+- Assets/Source/prefabs/All/Display_pos.prefab
+- Assets/Source/prefabs/All/star_bomb.prefab
+- Assets/Source/prefabs/All/boom.prefab
+- Assets/Source/prefabs/All/barrage.prefab
+- Assets/Source/prefabs/All/Enemy_bahavior.asset
+- Assets/Source/prefabs/All/wuqi_gezi.prefab
+- Assets/Source/prefabs/All/Monster.prefab
+- Assets/Source/prefabs/All/daoju_gezi.prefab
 Dependencies:
 - D:/unity/proj/BurningLove/AssetBundles/PC/font
 - D:/unity/proj/BurningLove/AssetBundles/PC/image

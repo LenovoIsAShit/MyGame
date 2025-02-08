@@ -75,6 +75,7 @@ public class OP : MonoBehaviour
                 default:
                     //Prefab.Add(objname, Instantiate(Resources.Load<GameObject>(path)));
                     prefab.Add(objname, ABLoadManager.instance.Get("prefab", objname));
+                    prefab[objname].SetActive(false);
                     break;
             }
         }//如果没有预设件(键)
@@ -109,12 +110,12 @@ public class OP : MonoBehaviour
         if (Pool.ContainsKey(prefab_name))
         {
             Pool[prefab_name].Add(obj);
-            obj.SetActive(false);
         }
         else
         {
             Pool.Add(prefab_name, new List<GameObject>() { obj});
         }
+        obj.SetActive(false);
     }
     //卸载对象
 

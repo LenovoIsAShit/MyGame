@@ -33,10 +33,14 @@ public class move : MonoBehaviour
     {
         Speed_Judge();
         //更新速度
-        Movedir_Judge();
-        //更新方向
-        Start_Move();
-        //移动
+
+        if (LevelController.Inboss != true)
+        {
+            Movedir_Judge();
+            //更新方向
+            Start_Move();
+            //移动
+        }
     }
 
     ///////////////////    工具函数   ////////////////////////

@@ -1,15 +1,15 @@
 ManifestFileVersion: 0
-CRC: 3334891931
+CRC: 2669168967
 Hashes:
   AssetFileHash:
     serializedVersion: 2
-    Hash: 573629a895c9a438c26afd3fa79e333b
+    Hash: 3faf214a5a7819b37afba10e66590340
   TypeTreeHash:
     serializedVersion: 2
     Hash: 2d8df09e698f722ada1caa03d3413830
   IncrementalBuildHash:
     serializedVersion: 2
-    Hash: 573629a895c9a438c26afd3fa79e333b
+    Hash: 3faf214a5a7819b37afba10e66590340
 HashAppended: 0
 ClassTypes:
 - Class: 28
@@ -18,20 +18,20 @@ ClassTypes:
   Script: {instanceID: 0}
 SerializeReferenceClassIdentifiers: []
 Assets:
-- Assets/images/refresh.png
-- Assets/images/baozhalizi.png
-- Assets/images/touming.png
-- Assets/images/button.png
-- Assets/images/loading.png
-- Assets/images/circle.png
-- Assets/images/beibao/bk2.png
-- Assets/images/detected.png
-- Assets/images/frame.png
-- Assets/images/dir.png
-- Assets/images/background.png
-- Assets/images/beibao/wuqikuang/1.png
-- Assets/images/blood1.png
-- Assets/images/beibao/bk.png
-- Assets/images/Effect/effect.png
-- Assets/images/blood2.png
+- Assets/Source/images/refresh.png
+- Assets/Source/images/baozhalizi.png
+- Assets/Source/images/touming.png
+- Assets/Source/images/button.png
+- Assets/Source/images/loading.png
+- Assets/Source/images/circle.png
+- Assets/Source/images/beibao/bk2.png
+- Assets/Source/images/detected.png
+- Assets/Source/images/frame.png
+- Assets/Source/images/dir.png
+- Assets/Source/images/background.png
+- Assets/Source/images/beibao/wuqikuang/1.png
+- Assets/Source/images/blood1.png
+- Assets/Source/images/beibao/bk.png
+- Assets/Source/images/Effect/effect.png
+- Assets/Source/images/blood2.png
 Dependencies: []

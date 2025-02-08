@@ -9,7 +9,8 @@ public class UImanager : MonoBehaviour
     {
         quitUI,
         Beibao,
-        offUI
+        offUI,
+        InBoss
     }
 
     [HideInInspector]
