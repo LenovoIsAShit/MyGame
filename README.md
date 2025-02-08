@@ -1,7 +1,9 @@
 这是我的第一个项目，目前正在维护更新中，主要有单人模式和多人联机模式(低优先)，
 玩家模型资源来自Unity免费商店，其他都是自己拼的，这个游戏demo会长期更新:smile::grinning_face_with_big_eyes:
-    
+
+[2025/2/9 上传视频]<br>https://www.bilibili.com/video/BV1gFN7evEFr/?spm_id_from=333.1387.homepage.video_card.click&vd_source=142e89f3ee527e4138ae6596aa56e322<br>
 <br>//////////////////////////////////////////////////////   日志   ///////////////////////////////////////////////////////<br><br>
+
 
   [2024/12/18] <br>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;完成单人模式和多人联机基本结构<br>
